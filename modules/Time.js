@@ -9,4 +9,4 @@ function secToDHHMMSS (time) {
     return (days ? days + 'd ' : '') + (hours ? hours + 'h ' : '') + (minutes ? minutes + 'min ' : '') + ( seconds ? seconds + 's' : ''); 
 }
 
-exports.printTime = secToDHHMMSS;
+exports.printHumanTime = secToDHHMMSS;
